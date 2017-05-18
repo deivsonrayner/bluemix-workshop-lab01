@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-deivson
+  host: aplicacao-de-teste-deivson
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-deivson-AdvancedMobileAccess
+  - aplicacao-de-teste-deivson-imfpush
+  - aplicacao-de-teste-deivson-cloudantNoSQLDB
