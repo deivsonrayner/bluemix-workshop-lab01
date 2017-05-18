@@ -17,6 +17,7 @@
     "loopback-connector-mysql": "^2.2.0",
     "loopback-datasource-juggler": "^2.39.0",
     "loopback-connector-couch": "",
+    "cfenv": "",
     "passport": "^0.3.2",
     "serve-favicon": "^2.0.1"
   },
